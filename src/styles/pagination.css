@@ -1,0 +1,21 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin: auto;
+  height: 50px;
+  width: 600px;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #cccccc;
+}
+
+button.before-PageBtn,
+button.after-PageBtn {
+  text-transform: uppercase;
+  width: 95px;
+}
